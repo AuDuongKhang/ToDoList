@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex: 1;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 3rem;
+  max-width: 1000px;
+  height: auto;
+  background-color: #fcfcfc;
+}

@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.progress {
+  background: #fbec49;
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 0;
+  width: 50%;
+}
+.title {
+  position: relative;
+  z-index: 2;
+  padding: 5px;
+  margin: 0;
+  color: #737c5e;
+  font-weight: 500;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

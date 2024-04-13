@@ -1,0 +1,25 @@
+@import-normalize;
+
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+} */
+.title {
+  /* text-shadow: 4px 4px 4px rgba(131, 158, 185, 255); */
+  text-shadow: 1px 1px 0px #515353, -2px 0px 0px #c5dde8;
+  color: #515353;
+}
+.container-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20%;
+}
+.wrapper-remove-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
